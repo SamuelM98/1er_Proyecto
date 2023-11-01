@@ -1,0 +1,18 @@
+footer .container .row div img{
+    width: 35px;
+    height: 35px;
+    border-radius: 20%;
+}
+.contenedorrs{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+.contenedorrs a{
+    margin: 0 15px;
+}
+.redes{
+    border-radius: 30px;
+    background-color: #f0f7d3;
+}

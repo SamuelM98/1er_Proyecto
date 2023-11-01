@@ -1,0 +1,45 @@
+#menu1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+li {
+    display: inline-block;
+}
+.nivel li a{
+    position: relative;
+    align-items: center;
+    display: inline-block;
+    margin: 5px;
+}
+#menu1 ul li a {
+    position: relative;
+    align-items: center;
+    left: 270px;
+    display: block;
+    width: 130px;
+    padding: 4px 0;
+    border-radius: 10px 10px 10px 10px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 11px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: #066727;
+    outline: none;
+}
+  
+li ul {
+    display: none;
+    position: absolute;
+    min-width: 200px;
+}
+  
+li.active ul {
+    display: block;
+}
+  
+li ul li {
+    display: block;
+}

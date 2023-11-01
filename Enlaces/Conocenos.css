@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(228, 228, 247);
+}
+.centrado{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(165, 255, 255);
+}
+.fondo{
+    width: 100%;
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: color 1.5s;
+}
+h3:hover{
+    color: #0d3f1e;
+}

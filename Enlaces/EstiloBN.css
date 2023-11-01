@@ -1,0 +1,29 @@
+
+#menu{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+#menu a b{
+    left: 100px;
+}
+#menu a b:hover{
+    color: #066727;
+}
+.escudo{
+    height: 56px;/*7a*/
+    width: 48px;/*6a*/
+}
+.nombre{
+    font-weight: 800;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 2s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nombre:hover{
+    color: #0d3f1e;
+}

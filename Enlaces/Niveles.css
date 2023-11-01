@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(228, 228, 247);
+}
+.contenedor-niveles{
+    width: 100%;
+    height: auto;
+    background-color: #f0f7d3;
+    border-radius: 30px;
+}
+.contenedor-niveles .row{
+    text-align: center;
+}
+main div div p{
+    color: rgb(73, 70, 70);
+}
+main div .foto{
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+}
+main div div div div div div div .curso{
+    width: 60px;
+    padding: 0;
+    height: auto;
+}
+main div div div div div div div h3{
+    font-size: 15px;
+}
+main div div div div div div div p{
+    text-align: justify;
+}
+.centrar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

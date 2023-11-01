@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(228, 228, 247);
+}
+.contenedor-niveles{
+    background-color: #f0f7d3;
+    border-radius: 30px;
+}
+.contenedor{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.contenedor a h3{
+    color: black;
+}
+div.contenedor p{
+    text-align: justify;
+}
+.contenedor a:hover{
+    text-decoration: none;
+}
+.contenedor p{
+    color: rgb(73, 70, 70);
+}
+div div a img.img-fluid{
+    position: relative;
+    top: 25px;
+    width: 95%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: all 0.5s ease-in;
+}
+div div a img.img-fluid:hover{
+    transform: scale(1.05,1.05);/*Hacer que la imagen crezca en un 5% al pasar el puntero por el elemento*/
+}
+a.boton{
+    bottom: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #066727;
+    color: white;
+    font-size: 15px;
+    transition: all 0.5s ease-in;
+}
+a.boton:hover{
+    background-color: #058b32;/*Hacer que el fonfo del elemento cambie de color al pasar el puntero por encima del elemento*/
+}
+.inf{
+    color: #066727;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.terminos{
+    text-align: left;
+}
+.caja{
+    position: relative;
+    width: auto;
+    text-align: center;
+}
+article.container div.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+article.container div.container *{
+    margin: 2px;
+}
+article.container div.container .ir-a-gm{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    text-decoration: none;
+}
+article.container div.container img{
+    width: 40px;
+    margin: 10px;
+    border-radius: 15%;
+    transition: all 0.6s ease-in;
+}
+article.container div.container img:hover{
+    transform: scale(1.2, 1.2);
+}

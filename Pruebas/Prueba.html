@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 1px solid blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 20vh;
+        }
+        .container a{
+            border: 1px solid ;
+        }
+        .container a *{
+            border: 1px solid red;
+            margin: 15px;
+        }
+        .container img:hover{
+            transform: scale(1.2, 1.2);
+        }
+        .container img{
+            width: 35px;
+            margin: 10px;
+            transition: all 0.5s ease-in;
+        }
+        .container a.sin-adorno{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <a href="https://goo.gl/maps/K65SRwpjCUiYS1yY7"><img src="Imgs Logos/Img Google Maps.png" alt="Foto inical"></a>
+            <a class="sin-adorno" href="https://goo.gl/maps/K65SRwpjCUiYS1yY7"><p>Texto Referencial</p></a>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.9/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

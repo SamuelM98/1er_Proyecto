@@ -1,0 +1,17 @@
+.fixed-div {
+    position: fixed;
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    z-index: 1;
+  }
+  
+  .behind-div {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: blue;
+    margin-top: 250px;
+    z-index: 0;
+  }
+  

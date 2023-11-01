@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Opción Única</title>
+</head>
+<body>
+    <label>
+        <input type="radio" name="terminos" value="aceptar"> Aceptar Términos y Condiciones
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="terminos" value="noaceptar"> No Aceptar Términos y Condiciones
+    </label>
+
+    <script>
+        // Deshabilitar la otra opción cuando una se selecciona
+        const radioButtons = document.querySelectorAll('input[type="radio"]');
+
+        radioButtons.forEach(radioButton => {
+            radioButton.addEventListener('change', () => {
+                radioButtons.forEach(otherRadioButton => {
+                    if (otherRadioButton !== radioButton) {
+                        otherRadioButton.disabled = false;
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
